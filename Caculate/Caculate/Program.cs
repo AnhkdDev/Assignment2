@@ -20,6 +20,8 @@
             {
                 case SIGN.DIVIDE:
                     return a / b;
+                case SIGN.MULTIPLY:
+                    return a * b;
                 default:
                     break;
             }
