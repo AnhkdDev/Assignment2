@@ -20,6 +20,8 @@
             {
                 case SIGN.MULTIPLY:
                     return a * b;
+                case SIGN.PLUS:
+                    return a + b;
                 default:
                     break;
             }
