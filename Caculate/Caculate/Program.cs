@@ -18,6 +18,8 @@
         {
             switch (sign)
             {
+                case SIGN.PLUS:
+                    return a + b;
                 default:
                     break;
             }
