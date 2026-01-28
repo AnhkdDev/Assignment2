@@ -18,6 +18,8 @@
         {
             switch (sign)
             {
+                case SIGN.MULTIPLY:
+                    return a * b;
                 default:
                     break;
             }
