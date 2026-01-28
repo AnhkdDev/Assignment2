@@ -18,8 +18,6 @@
         {
             switch (sign)
             {
-                case SIGN.DIVIDE:
-                    return a / b;
                 default:
                     break;
             }
