@@ -18,6 +18,8 @@
         {
             switch (sign)
             {
+                case SIGN.MINUS:
+                    return a - b;
                 default:
                     break;
             }
