@@ -18,8 +18,6 @@
         {
             switch (sign)
             {
-                case SIGN.PLUS:
-                    return a + b;
                 case SIGN.MINUS:
                     return a - b;
                 default:
