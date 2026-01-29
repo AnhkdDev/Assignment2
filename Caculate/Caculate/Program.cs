@@ -16,14 +16,12 @@
     {
         public double Calculate(SIGN sign, double a, double b)
         {
+            if (b == 0 || sign == SIGN.DIVIDE) 
+                return 0;
             switch (sign)
             {
-                case SIGN.PLUS:
-                    return a + b;
-                case SIGN.MINUS:
-                    return a - b;
-                case SIGN.MULTIPLY:
-                    return a * b;
+                case SIGN.DIVIDE:
+                    return a / b;
                 default:
                     break;
             }
