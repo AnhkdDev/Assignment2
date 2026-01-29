@@ -16,7 +16,7 @@
     {
         public double Calculate(SIGN sign, double a, double b)
         {
-            switch (sign)
+            switch (sign) 
             {
                 case SIGN.PLUS:
                     return a + b;
