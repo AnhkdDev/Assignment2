@@ -18,9 +18,14 @@
         {
             switch (sign)
             {
+<<<<<<< HEAD
                 case SIGN.DIVIDE:
                     if (b == 0) return 0;
                     return a / b;
+=======
+                case SIGN.MULTIPLY:
+                    return a * b;
+>>>>>>> feature/CPL26/PhucNDHE187145/implement_multiply
                 default:
                     break;
             }
